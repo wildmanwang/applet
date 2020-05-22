@@ -1,8 +1,24 @@
 {
   "pages":[
+    "pages/exaNavigate/exaNavigate",
+    "pages/exaMap/exaMap",
+    "pages/exaIcon/exaIcon",
+    "pages/myCanvas/myCanvas",
     "pages/index/index",
     "pages/logs/logs"
   ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/exaNavigate/exaNavigate",
+        "text": "页面A"
+      },
+      {
+        "pagePath": "pages/exaIcon/exaIcon",
+        "text": "页面D"
+      }
+    ]
+  },
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",

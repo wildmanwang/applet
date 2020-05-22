@@ -1,0 +1,9 @@
+<view class="container">
+  <view wx:for="{{icons}}" wx:key="*this" class="icon-box">
+    <icon type="{{item.type}}" size="93" class="icon-box-img"></icon>
+    <view class="icon-box-ctn">
+      <view class="icon-box-title">{{item.title}}</view>
+      <view class="icon-box-desc">{{item.describe}}</view>
+    </view>
+  </view>
+</view>

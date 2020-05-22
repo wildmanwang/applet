@@ -1,0 +1,21 @@
+.icon-box{
+  margin-bottom: 40rpx;
+  padding: 0 75rpx;
+  display: flex;
+  align-items: center;
+  width: 750rpx;
+}
+.icon-box-img{
+  margin-right: 45rpx;
+}
+.icon-box-ctn{
+  flex-shrink: 100;
+}
+.icon-box-title{
+  font-size: 34rpx;
+}
+.icon-box-desc{
+  font-size: 26rpx;
+  margin-top: 12rpx;
+  color: #888;
+}

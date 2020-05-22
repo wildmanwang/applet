@@ -1,0 +1,18 @@
+<view class="container">
+  <view class="page-body">
+    <view class="btn-area">
+      <navigator url="/pages/index/index" open-type="navigate" hover-class="btn-hover">
+        <button type="default">跳转到新页面</button>
+      </navigator>
+      <navigator url="/pages/exaMap/exaMap" open-type="redirect" hover-class="btn-hover">
+        <button type="default">在当前页打开</button>
+      </navigator>
+      <navigator url="/pages/exaIcon/exaIcon" open-type="switchTab" hover-class="btn-hover">
+        <button type="default">切换tab页面</button>
+      </navigator>
+      <navigator url="/pages/exaNavigate/exaNavigate" open-type="reLaunch" hover-class="btn-hover">
+        <button type="default">重加载页面</button>
+      </navigator>
+    </view>
+  </view>
+</view>
