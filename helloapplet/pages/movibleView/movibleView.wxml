@@ -1,0 +1,24 @@
+<view>
+  <view>movible-view小于movible-area</view>
+  <movable-area style="width: 300px; height: 300px; background-color: green; margin: 0 auto; ">
+    <movable-view 
+      style="width: 50px; height: 50px; background: red; "
+      x="{{x}}"
+      y="{{y}}"
+      direction="all"
+      inertia="true"
+      >
+    </movable-view>
+  </movable-area>
+  <button type="default" bindtap="tap1">移到(50,20)</button>
+  <view>mobible-view大于movible-area</view>
+  <movable-area style="width: 5px; height: 5px; background-color: green; margin: 0 auto; ">
+    <movable-view
+      style="width: 50px; height: 50px; background-color: red; "
+      x="{{x}}"
+      y="{{y}}"
+      direction="all"
+      >
+    </movable-view>
+  </movable-area>
+</view>
