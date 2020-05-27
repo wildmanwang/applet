@@ -1,12 +1,13 @@
 {
   "pages":[
+    "pages/scrollView/scrollView",
     "pages/movibleView/movibleView",
-    "pages/exaNavigate/exaNavigate",
     "pages/exaMap/exaMap",
     "pages/exaIcon/exaIcon",
     "pages/myCanvas/myCanvas",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/exaNavigate/exaNavigate"
   ],
   "tabBar": {
     "list": [

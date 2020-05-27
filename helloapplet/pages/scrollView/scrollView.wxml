@@ -1,0 +1,34 @@
+<view>
+  <view>竖向滚动</view>
+  <scroll-view style="height: 200px; "
+    scroll-y="true"
+    scroll-into-view="{{toView}}"
+    scroll-top="{{scrollTop}}"
+    enable-back-to-top="true"
+    scroll-with-animation="true"
+    >
+    <view id="view1" class="scroll-block" style="background-color: #ff0000; ">这里是第1块
+      <button size="mini">测试按钮</button>
+    </view>
+    <view id="view2" class="scroll-block" style="background-color: #00ff00; ">这里是第2块</view>
+    <view id="view3" class="scroll-block" style="background-color: #0000ff; ">这里是第3块</view>
+    <view id="view4" class="scroll-block" style="background-color: #ffff00; ">这里是第4块</view>
+    <view id="view5" class="scroll-block" style="background-color: #00ffff; ">这里是第5块</view>
+    <view id="view6" class="scroll-block" style="background-color: #ff00ff; ">这里是第6块</view>
+  </scroll-view>
+  <view>
+    <button bindtap="scrollPage">scroll page</button>
+    <button bindtap="scrollLittle">scroll a little</button>
+  </view>
+</view>
+<view>
+  <view>横向滚动</view>
+  <scroll-view style="height: 400rpx; margin: 0 auto; white-space: nowrap; "
+    scroll-x = "true"
+    >
+    <view class="scroll-h-item" style="background-color: #ff0000; ">这里是第1块</view>
+    <view class="scroll-h-item" style="background-color: #00ff00; ">这里是第2块</view>
+    <view class="scroll-h-item" style="background-color: #0000ff; ">这里是第3块</view>
+    <view class="scroll-h-item" style="background-color: #ffff00; ">这里是第4块</view>
+  </scroll-view>
+</view>
